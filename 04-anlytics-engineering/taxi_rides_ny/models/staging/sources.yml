@@ -1,8 +1,10 @@
+versioin: 2
+
 sources:
-  - name: nytaxi
+  - name: staging
+    description: "Raw data sources for NYC taxi rides"
     database: taxi_rides_ny # Or name of your GCP project
-    schema: main # Or name of your BigQuery dataset
-    
+    schema: prod # Or name of your BigQuery dataset 
     tables:
       - name: green_tripdata
       - name: yellow_tripdata

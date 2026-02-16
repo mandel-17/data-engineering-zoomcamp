@@ -1,5 +1,5 @@
 [project]
-name = "04-anlytics-engineering"
+name = "taxi_rides_ny"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
